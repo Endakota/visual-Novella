@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head class = "block2level">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Блок 2 Уровни</title>
+	<link href = '../styles.css' rel = 'stylesheet'>
+</head>
+<body>
+	<form class = 'outer'>
+		<div class="form_radio_btn">
+			<input id="radio-1" type="radio" name="level" value="1" checked>
+			<label for="radio-1">Итоги по Жандосу</label>
+		</div>
+
+		<div class="form_radio_btn">
+			<input id="radio-2" type="radio" name="level" value="2">
+			<label for="radio-2">Итоги по Жене</label>
+		</div>
+		<div class="form_radio_btn">
+			<input id="radio-3" type="radio" name="level" value="3">
+			<label for="radio-3">Общие итоги</label>
+		</div>
+		<button type = 'submit'>Принять</button>
+
+	</form>
+	
+	<script src = '../data.js'></script>
+	<script src = './levelFormTapper.js'></script>
+	<script src = '../redirect.js'></script>
+</body>
+</html>
